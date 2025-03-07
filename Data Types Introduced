@@ -1,0 +1,9 @@
+#Data Types
+#C.R.I.B.S
+#Here are variables that hold...
+#... each type of data type
+character = "a"#must have speech marks
+realFloat = 22.45
+integer = 555
+Boolean = True #Capital T
+string = "TSPMO"#must have speech marks
