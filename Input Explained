@@ -1,0 +1,30 @@
+#Input Explained
+#Python has many "built in" function
+#here is a list
+#https://docs.python.org/3/library/functions.html
+
+#here is a variable
+name = "Sonic"
+
+#however, not everyone is called bob
+#here is how to allow a user to input
+#..their name
+name = str(input("Enter your Name"))
+print("nice to meet you",name)
+
+age = str(input("Enter your age"))
+print("You're",age,"years old")
+
+colour = str(input("Enter your favourite colour"))
+print("my favourite colour is also",colour)
+
+enz = str(input("What enz do you affiliate with?"))
+print("Never heard of",enz,"enz")
+
+bandz = str(input("How many bandz do you have"))
+print(bandz,"is nothing")
+
+
+
+
+
