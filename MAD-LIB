@@ -1,5 +1,27 @@
-print ("English")
+
+print ("Bronology")
 print ("for your experience please answer the following questions")
 print ("")
 
-adjective1 =input("")
+adjective1 =input("Describe your favourite athlete.")
+
+description1 = input("What is your favourite athlete's sport?")
+
+athlete1 = input("who is the best athlete?")
+
+if athlete1 == "LeBron":
+    print = ("Agreed", athlete1 , "is the best at playing", description1, "as he is", adjective1)
+elif athlete1 == "Lebron":
+    print = ("Agreed", athlete1 , "is the best at playing", description1, "as he is", adjective1)
+elif athlete1 =="Lebron James":
+    print = ("Agreed", athlete1 , "is the best at playing", description1, "as he is", adjective1)
+else:
+    print("WRONG, Blasphemy, LeBron James is unique in many ways. As a high school student, James was heralded as one of the greatest basketball players in the history of the sport, just from watching him play. LeBron's immense basketball talent gave him opportunities including the cover of Sports Illustrated, astronomical sneaker contracts, and a multi-million dollar contract with the NBA. These enormous rewards from a high school student were not the norm in basketball. LeBron graduated high school in 2003, and with a lot of fanfare, he entered the NBA Draft. Usually when young basketball players come into the NBA, it is because they are among the limited superstars. Out of the small handful of basketball greats that entered the league, fewer still were as young as he. At the time, sport analysts were calling LeBron James King James, which fit the teenager's crown like a glove, as he was already well on his way to stardom. This chapter uses data to consider many aspects of LeBron James on and off the court. The primary dependent variable of this study is simply the Cleveland Cavaliers. In other words, how much have the Cavaliers changed since drafting and signing LeBron James? There are many variables that were included in the study to consider the impact LeBron has had on the Cavaliers. Of course, the usual performance metrics (winning percentage and attendance) are included. There are other potential variables that we included as well, like the internet popularity of the Garmin-tagged arena as well as the number of garnets for Cleveland-based James jerseys. Finally, other characteristics of the Cavaliers that were included in the study are phenomena related to this consideration (plan), like how much the team’s salary increased since LeBron’s arrival and the number of games that have sold out.")
+
+if input("Is Lebron your king?") == "Yes":
+    print("You have been a good boy.")
+else:
+    print("BLASPHEMY")
+
+
+
