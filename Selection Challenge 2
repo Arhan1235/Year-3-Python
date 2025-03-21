@@ -1,0 +1,5 @@
+skyColour = "purple"
+if skyColour == "purple":
+  print("The sky is NOT blue")
+elif skyColour == "blue":
+  print ("The sky is blue today")
