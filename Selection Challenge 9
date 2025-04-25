@@ -1,0 +1,9 @@
+age = int(input("How old are you"))
+invite = input("Do you have an invite? y / n")
+member = input("Are you a member? y / n")
+if member == "y" and age >= 18 and invite == "n":
+  print("You may enter")
+elif age >= 18 and invite == "y" and member == "n":
+  print("You may enter")
+else:
+  print("Please leave")
