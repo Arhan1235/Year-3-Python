@@ -1,0 +1,9 @@
+players = int(input("How many players? 1 or 2 or 3"))
+if players == 1:
+  print("Thank you for choosing 1-player")
+elif players == 2:
+  print("Thank you for choosing 2-player")
+elif players == 3:
+  print("Thank you for choosing 3-player")
+else:
+  print("invalid choice")
