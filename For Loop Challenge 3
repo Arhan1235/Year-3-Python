@@ -1,0 +1,4 @@
+name = str(input("Input your name>>>"))
+number = int(input("How many times?"))
+for i in range(number):
+  print(name)
